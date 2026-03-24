@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Smart Restaurant</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+nav h1 {
+  color: #00f7ff;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h2 {
+  font-size: 40px;
+}
+
+.hero button {
+  padding: 10px 25px;
+  border: none;
+  background: #00f7ff;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+/* Menu Section */
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 15px;
+  width: 200px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  background: rgba(0,247,255,0.2);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  border: none;
+  background: #00f7ff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+</style>
+
+</head>
+<body>
+
+<nav>
+  <h1>FoodTech 🍔</h1>
+  <div>
+    <a href="#">Home</a>
+    <a href="#">Menu</a>
+    <a href="#">Contact</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <h2>Welcome to Smart Restaurant 🤖</h2>
+  <p>Order your favorite food with futuristic experience</p>
+  <button>Explore Menu</button>
+</section>
+
+<section class="menu">
+  <div class="card">
+    <img src="https://via.placeholder.com/200">
+    <h3>Burger</h3>
+    <p>₹120</p>
+    <button>Order</button>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/200">
+    <h3>Pizza</h3>
+    <p>₹250</p>
+    <button>Order</button>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/200">
+    <h3>Juice</h3>
+    <p>₹80</p>
+    <button>Order</button>
+  </div>
+</section>
+
+</body>
+</html>
